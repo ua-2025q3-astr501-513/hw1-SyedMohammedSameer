@@ -65,3 +65,32 @@ def quadratic(a, b, c):
                 If there is no real root, x1 == x2 == None.
     """
     # TODO: implement the stable quadratic equation solver here
+    # Handle degenerate case: not quadratic
+    if a == 0:
+        if b == 0:
+            return (None, None) if c != 0 else (0, None)
+        return (-c / b, None)
+
+    D = b * b - 4 * a * c
+
+    if D < 0:
+        # No real roots
+        return (None, None)
+
+    sqrtD = math.sqrt(D)
+
+    if D == 0:
+        # One real root
+        x = -b / (2 * a)
+        return (x, None)
+
+    # Numerically stable root
+    sign_b = 1 if b >= 0 else -1
+    x1 = (-b - sign_b * sqrtD) / (2 * a)
+    x2 = (c / a) / x1
+
+    # Return in ascending order
+    if x1 < x2:
+        return (x1, x2)
+    else:
+        return (x2, x1)

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+hw1/p2.py
+hw1/p3.py
+hw1/p4.py
+hw1.egg-info/PKG-INFO
+hw1.egg-info/SOURCES.txt
+hw1.egg-info/dependency_links.txt
+hw1.egg-info/requires.txt
+hw1.egg-info/top_level.txt
