@@ -38,32 +38,14 @@
 
 # TODO: Edit this sample idea.
 
-project_ideas:
-  - title: "Fast Fourier Analysis of Variable Stars"
-    description: >
-      Use Fourier transforms to analyze periodic signals in astrophysical data
-      (e.g., pulsating stars, exoplanet transit light curves). The project would
-      involve implementing efficient FFT methods and dealing with noise.
-    topics:
-      - Fourier Transform and Spectral Analysis
-      - Data Representation and Errors
+- topic: Fourier Transform and Spectral Analysis
+  idea: Use Fourier transforms to analyze periodic signals in astrophysical data (e.g., pulsars, stellar oscillations).
 
-  - title: "Numerical Root Finding in Orbital Mechanics"
-    description: >
-      Apply root-finding and optimization methods to compute orbital parameters
-      from simulated spacecraft trajectories. Compare Newton-Raphson and
-      bisection methods for efficiency and accuracy.
-    topics:
-      - Root Finding and Optimization Methods
-      - Numerical Linear Algebra
+- topic: Numerical Linear Algebra
+  idea: Implement and compare iterative solvers (Jacobi, Gauss-Seidel, Conjugate Gradient) for large sparse systems.
 
-  - title: "Solving the Heat Equation with PDE Solvers"
-    description: >
-      Implement finite-difference PDE solvers to model heat diffusion in 1D and
-      2D systems. Investigate stability and accuracy of explicit vs. implicit schemes.
-    topics:
-      - PDE Solvers
-      - Numerical Integration of Functions
+- topic: PDE Solvers
+  idea: Solve the heat equation using finite-difference methods and compare explicit vs. implicit schemes.
 
 # TODO: Add two more project ideas below, following the same format as
 # the example above.
