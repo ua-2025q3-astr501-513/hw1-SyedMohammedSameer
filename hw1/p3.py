@@ -30,6 +30,7 @@
 # Here, let's implement a numerically stable quadratic equation solver
 # to overcome catastrophic cancellation.
 # Please make sure that you take care of all the special cases.
+import math
 
 def quadratic(a, b, c):
     """Numerically stable quadratic equation solver

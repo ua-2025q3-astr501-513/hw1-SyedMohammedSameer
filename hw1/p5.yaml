@@ -38,9 +38,32 @@
 
 # TODO: Edit this sample idea.
 
-- topic: Numerical Linear Algebra
-  idea:  Develop a fast matrix multiplication algorithm to reduce
-         energy consumption during deep learning inference.
+project_ideas:
+  - title: "Fast Fourier Analysis of Variable Stars"
+    description: >
+      Use Fourier transforms to analyze periodic signals in astrophysical data
+      (e.g., pulsating stars, exoplanet transit light curves). The project would
+      involve implementing efficient FFT methods and dealing with noise.
+    topics:
+      - Fourier Transform and Spectral Analysis
+      - Data Representation and Errors
+
+  - title: "Numerical Root Finding in Orbital Mechanics"
+    description: >
+      Apply root-finding and optimization methods to compute orbital parameters
+      from simulated spacecraft trajectories. Compare Newton-Raphson and
+      bisection methods for efficiency and accuracy.
+    topics:
+      - Root Finding and Optimization Methods
+      - Numerical Linear Algebra
+
+  - title: "Solving the Heat Equation with PDE Solvers"
+    description: >
+      Implement finite-difference PDE solvers to model heat diffusion in 1D and
+      2D systems. Investigate stability and accuracy of explicit vs. implicit schemes.
+    topics:
+      - PDE Solvers
+      - Numerical Integration of Functions
 
 # TODO: Add two more project ideas below, following the same format as
 # the example above.
