@@ -38,9 +38,14 @@
 
 # TODO: Edit this sample idea.
 
+- topic: Fourier Transform and Spectral Analysis
+  idea: Use Fourier transforms to analyze periodic signals in astrophysical data (e.g., pulsars, stellar oscillations).
+
 - topic: Numerical Linear Algebra
-  idea:  Develop a fast matrix multiplication algorithm to reduce
-         energy consumption during deep learning inference.
+  idea: Implement and compare iterative solvers (Jacobi, Gauss-Seidel, Conjugate Gradient) for large sparse systems.
+
+- topic: PDE Solvers
+  idea: Solve the heat equation using finite-difference methods and compare explicit vs. implicit schemes.
 
 # TODO: Add two more project ideas below, following the same format as
 # the example above.
